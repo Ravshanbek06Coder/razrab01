@@ -82,7 +82,7 @@
 
         }
         .skill_wraper{
-            width: 310px;
+            width: 280px;
             overflow: hidden;
             .skill_in_per{
                 width: 100px;
@@ -97,7 +97,14 @@
     #cards{
         .cards_wrapper{
             .card{
-                width: 100%;
+                width: calc(100% / 2);
+                height: 200px;
+            }
+            .in_card{
+                height: 100%;
+            }
+            img{
+                width: 50px;
             }
         }
     }
@@ -111,16 +118,19 @@
             }
         }
         form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             .input_wraper{
                 display: flex;
                 flex-direction: column;
                 input{
-                    width: 290px;
+                    width: 240px;
                 }
             }
 
             textarea{
-                width: 290px;
+                width: 240px;
             }
         }
     }
@@ -132,9 +142,16 @@
         }
     }
     #services{
-            .service{
-                width: calc(100% / 2);
-            }
+        .main_container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .service{
+            flex: 1;
+            justify-content: center;
+            width: calc(100% / 2);  
+        }
     }
     footer{
         .main_container{

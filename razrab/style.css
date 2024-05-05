@@ -54,7 +54,7 @@ header .menu {
   position: fixed;
   padding: 50px 0;
   left: -100%;
-  background-color: rgb(163, 89, 89);
+  background-color: #34547A;
   transition: 0.3s ease;
 }
 header .menu .nav_link {
@@ -68,7 +68,7 @@ header .menu .nav_link {
 header .menu .nav_link .close_menu {
   background-color: transparent;
   border: none;
-  padding-top: 20px;
+  padding-top: 17px;
   position: absolute;
   right: 25px;
 }
@@ -472,7 +472,7 @@ footer .footer_logo {
     font-size: 27px;
   }
   #skill .skill_wraper {
-    width: 310px;
+    width: 280px;
     overflow: hidden;
   }
   #skill .skill_wraper .skill_in_per {
@@ -482,7 +482,14 @@ footer .footer_logo {
     width: 300px;
   }
   #cards .cards_wrapper .card {
-    width: 100%;
+    width: 50%;
+    height: 200px;
+  }
+  #cards .cards_wrapper .in_card {
+    height: 100%;
+  }
+  #cards .cards_wrapper img {
+    width: 50px;
   }
   #forms .form_title h6 {
     font-size: 27px;
@@ -490,20 +497,32 @@ footer .footer_logo {
   #forms .form_title p {
     font-size: 13px;
   }
+  #forms form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   #forms form .input_wraper {
     display: flex;
     flex-direction: column;
   }
   #forms form .input_wraper input {
-    width: 290px;
+    width: 240px;
   }
   #forms form textarea {
-    width: 290px;
+    width: 240px;
   }
   #logos .main_container img {
     width: 190px;
   }
+  #services .main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   #services .service {
+    flex: 1;
+    justify-content: center;
     width: 50%;
   }
   footer .main_container {
