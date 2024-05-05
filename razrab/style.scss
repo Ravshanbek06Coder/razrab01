@@ -23,6 +23,7 @@ a{
 
 // header
 header{
+    background: rgb(238, 239, 241);
         padding-top: 57px;
     .main_container{
         display: flex;
@@ -61,7 +62,7 @@ header{
             .close_menu{
                 background-color: transparent;
                 border: none;
-                padding-top: 17px;
+                padding-top: 18px;
                 position: absolute;
                 right: 25px;
             }
@@ -75,7 +76,8 @@ header{
 
 // home
 #home{
-        margin-top: 162px;
+        background: rgb(238, 239, 241);
+        padding-top: 162px;
     .main_container{
         display: flex;
         align-items: center;
